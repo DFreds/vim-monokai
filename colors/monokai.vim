@@ -132,8 +132,14 @@ call s:h("SignColumn",    {                     "bg": s:lightblack })
 call s:h("StatusLine",    { "fg": s:black,      "bg": s:lightgrey })
 call s:h("StatusLineNC",  { "fg": s:lightgrey,  "bg": s:black })
 call s:h("TabLine",       { "fg": s:lightgrey,  "bg": s:lightblack })
-call s:h("TabLineSel",    { "fg": s:darkblack,  "bg": s:warmgrey,     "format": "bold" })
+call s:h("TabLineSel",    { "fg": s:darkblack,  "bg": s:aqua,     "format": "bold" })
 call s:h("TabLineFill",   { "bg": s:lightblack })
+
+" buftabline
+call s:h("BufTabLineCurrent", { "fg": s:darkblack,  "bg": s:aqua, "format": "bold" })
+call s:h("BufTabLineActive",  { "fg": s:darkblack,  "bg": s:warmgrey, "format": "bold" })
+call s:h("BufTabLineFill",    { "bg": s:lightblack })
+
 call s:h("User1",         { "fg": s:yellow,     "bg": s:lightgrey,    "format": "bold" })
 call s:h("User2",         { "fg": s:orange,     "bg": s:lightgrey,    "format": "bold" })
 call s:h("User3",         { "fg": s:purple,     "bg": s:lightgrey,    "format": "bold" })
