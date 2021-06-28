@@ -8,7 +8,7 @@ Install
 
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
-    Plug 'crusoexia/vim-monokai'
+    Plug 'DFreds/vim-monokai'
 
 ### Manually
 
